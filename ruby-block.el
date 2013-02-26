@@ -105,7 +105,7 @@ t          => minibuffer and overlay"
 (define-minor-mode ruby-block-mode
   "In ruby-mode, Displays the line where there is keyword corresponding
 to END keyword. this is Minor mode for ruby-mode only."
-  :init-value t
+  :init-value nil
   :global nil
   :keymap nil
   :lighter " RBlock"
